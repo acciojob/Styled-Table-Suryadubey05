@@ -1,1 +1,22 @@
-/* your code */
+body{
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse: collapse;
+	border:none;
+	height:150px;
+	width:500px;
+	border-radius:10px;
+	 overflow: hidden;
+}
+#thead{
+	background-color:darkblue;
+	color:white;
+}
+ tr:nth-child(even){
+	background-color:lightgray;
+}
+td{
+	padding:8px;
+}
